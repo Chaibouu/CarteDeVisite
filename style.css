@@ -161,3 +161,31 @@ h1,a,p{
         opacity:0.2;
     }
 }
+
+@media screen and (max-width:475px){
+    .carte{
+        width: 350px;
+        height: 500px;
+       
+    }
+    .photo img {
+        width: 100px;
+        height: 150px;
+    }
+    .photo{
+        width:150px;
+        height: 150px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    p{
+        font-size: 14px;
+    }
+    .icons{
+        font-size:30px;
+        color: #fff;
+        width: 200px;
+        padding: 0px;
+    }
+}

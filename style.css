@@ -46,6 +46,13 @@ body{
 ul{
     list-style: none;
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 0;
+    margin: 20px auto;
+}
+ul li a:hover {
+    color:#04d81d;
 }
 
 h1,a,p{
@@ -53,8 +60,13 @@ h1,a,p{
     text-align: center;
     text-decoration: none;
 }
-
-a{
+.icons{
+    font-size:40px;
+    color: #fff;
+    width: 300px;
+    padding: 0px;
+}
+.btn{
     text-transform: uppercase;
     font-size: 20px;
     width: 150px;
